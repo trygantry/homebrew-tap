@@ -6,7 +6,7 @@ class Gantry < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/trygantry/gantry/releases/download/v#{version}/gantry-macos-aarch64"
-    sha256 "b5fdbbf5cc24890ddfc8db9c26e4cf0ec01584f32a68532140228ae762b8aac6"
+    sha256 "acf67663b6720e3b9f5641c0976d246f5f9b0a0f132727d70f0dced8e0781b6c"
   elsif OS.mac?
     url "https://github.com/trygantry/gantry/releases/download/v#{version}/gantry-macos-x86_64"
     sha256 "e2da84c977098103fd697b022aadd4fc768feee54bf25687dbaaaf8e6867df7f"
