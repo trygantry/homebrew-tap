@@ -1,9 +1,9 @@
 cask "gantry" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.5.0"
-  sha256 arm:   "8797a8477c858810facf82ee8f1880a5ec2f74eea2281d4a017f943f9f16fe00",
-         intel: "39a6560c247143aa8a771845ec4fe92a0d8f1e372d062483540a6617b6a894f0"
+  version "0.5.1"
+  sha256 arm:   "13eec2d389d4662d5b81695c0196f2b7b996c921b9c10b1be6906ffb6a5e566f",
+         intel: "ed61cd8360c161e6f502932d48aad03255e7b21bcf5f6de09d9202193d877451"
 
   url "https://github.com/trygantry/gantry/releases/download/v#{version}/Gantry_#{version}_#{arch}.dmg"
   name "Gantry"

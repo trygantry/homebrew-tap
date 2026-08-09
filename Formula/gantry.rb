@@ -1,18 +1,18 @@
 class Gantry < Formula
   desc "Local-first mobile release governance CLI"
   homepage "https://gantryapp.com/"
-  version "0.5.0"
+  version "0.5.1"
   license "Apache-2.0"
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/trygantry/gantry/releases/download/v#{version}/gantry-macos-aarch64"
-    sha256 "acf67663b6720e3b9f5641c0976d246f5f9b0a0f132727d70f0dced8e0781b6c"
+    sha256 "81df19e0355e7e46bb0aff0bb32171267107a07403c09064774c4a847f9e4164"
   elsif OS.mac?
     url "https://github.com/trygantry/gantry/releases/download/v#{version}/gantry-macos-x86_64"
-    sha256 "e2da84c977098103fd697b022aadd4fc768feee54bf25687dbaaaf8e6867df7f"
+    sha256 "7a2bb20afad47939b1bd797a4e427cd19d1186d677accc75fc1aeb44e966e986"
   else
     url "https://github.com/trygantry/gantry/releases/download/v#{version}/gantry-linux-x86_64"
-    sha256 "ca9357c70f0a8c669026cc73657967af4571b17487a6c306d9d767f88acd08c3"
+    sha256 "baa81dc977ccad890ea1fc6de4f612849e4f970343bb9c8033a8f59077eb4242"
   end
 
   def install

@@ -12,7 +12,7 @@ Install the macOS desktop app:
 brew install --cask trygantry/tap/gantry
 ```
 
-Gantry 0.5.0 desktop builds are intentionally unsigned and not notarized. The cask keeps
+Gantry 0.5.1 desktop builds are intentionally unsigned and not notarized. The cask keeps
 Homebrew's normal quarantine behavior: on first launch, Control-click Gantry in
 Applications, choose **Open**, then confirm **Open**. Automatic desktop updates are not
 included in unsigned releases.
