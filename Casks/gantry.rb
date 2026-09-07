@@ -5,7 +5,7 @@ cask "gantry" do
   sha256 arm:   "85767a64c31dfc1bde107d088fd1d838c6adbd6cdfa1d67c744216322eba72f6",
          intel: "0b487e695dff83eba73a4edc60ac4d31b8ebb3308a5794fbbe54a655019e9499"
 
-  url "https://github.com/trygantry/gantry/releases/download/v#{version}/Gantry_#{version}_#{arch}.dmg"
+  url "https://github.com/trygantry/gantry-distribution/releases/download/v#{version}/Gantry_#{version}_#{arch}.dmg"
   name "Gantry"
   desc "Local-first mobile release governance desktop app"
   homepage "https://gantryapp.com/"
